@@ -1,40 +1,43 @@
 const array = []
-const semana
+const semana = ["dia1", "dia2", "dia3", "dia4", "dia5"]
 
-const bloco1 = function dias (array) {
+const bloco1 = function dias (ferias) {
     
     if (dias) {
-        console.log("Qual dia das ferias você irá comentar?" /n);
+        array = semana;
     
         
     }else {
         console.log("resposta invalida");
         }
             
-        
-            
-            
-            
-            
-
-        
-            
-            
-
-        
-
 }
-
-        function criar (semana) {
-        console.log("qual dia da semana iremos fala? /n 'dia1' 'dia2' 'dia3' 'dia4' ou  'dia5'? ");
-
-    }
-
-        function atualizar(ferias) {
-            console.log("qual dia você quer atualizar");
         
+function criar (ferias) {
+    
+        if (bloco1()) {
+            console.log("qual dia da semana iremos fala?  'dia1' 'dia2' 'dia3' 'dia4' ou  'dia5'? " /n);
+    
+        }else {
+            console.log("dados invalidos");
         }
+}
+            function atualizar(ferias) {
+                console.log("qual dia você quer atualizar");
+            
+            }
+            
+            
+            
+            
+            
+
         
+            
+            
+
+        
+
         
         
         
